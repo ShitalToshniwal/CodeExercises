@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6210" started-at="2016-10-12T10:06:05Z" finished-at="2016-10-12T10:06:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6210" started-at="2016-10-12T10:06:05Z" finished-at="2016-10-12T10:06:11Z">
+      <class name="apiTests.CountryTests">
+        <test-method status="PASS" signature="getDataFromSampleJSONResponse()[pri:0, instance:apiTests.CountryTests@1e88b3c]" name="getDataFromSampleJSONResponse" is-config="true" duration-ms="24" started-at="2016-10-12T11:06:05Z" finished-at="2016-10-12T11:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataFromSampleJSONResponse -->
+        <test-method status="PASS" signature="getURL()[pri:0, instance:apiTests.CountryTests@1e88b3c]" name="getURL" is-config="true" duration-ms="2186" started-at="2016-10-12T11:06:05Z" finished-at="2016-10-12T11:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method status="PASS" signature="getAllCountries(java.lang.String, java.lang.String)[pri:0, instance:apiTests.CountryTests@1e88b3c]" name="getAllCountries" duration-ms="2786" started-at="2016-10-12T11:06:07Z" data-provider="GetAll" finished-at="2016-10-12T11:06:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCountries -->
+        <test-method status="PASS" signature="getCountryByIso2Code(java.lang.String, java.lang.String)[pri:0, instance:apiTests.CountryTests@1e88b3c]" name="getCountryByIso2Code" duration-ms="255" started-at="2016-10-12T11:06:10Z" data-provider="GetIso2code" finished-at="2016-10-12T11:06:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountryByIso2Code -->
+        <test-method status="PASS" signature="getCountryByIso2Code(java.lang.String, java.lang.String)[pri:0, instance:apiTests.CountryTests@1e88b3c]" name="getCountryByIso2Code" duration-ms="197" started-at="2016-10-12T11:06:10Z" data-provider="GetIso2code" finished-at="2016-10-12T11:06:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountryByIso2Code -->
+        <test-method status="PASS" signature="getCountryByIso3Code(java.lang.String, java.lang.String)[pri:0, instance:apiTests.CountryTests@1e88b3c]" name="getCountryByIso3Code" duration-ms="225" started-at="2016-10-12T11:06:10Z" data-provider="GetIso3code" finished-at="2016-10-12T11:06:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IND]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountryByIso3Code -->
+        <test-method status="PASS" signature="getCountryByIso3Code(java.lang.String, java.lang.String)[pri:0, instance:apiTests.CountryTests@1e88b3c]" name="getCountryByIso3Code" duration-ms="189" started-at="2016-10-12T11:06:10Z" data-provider="GetIso3code" finished-at="2016-10-12T11:06:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DDD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountryByIso3Code -->
+        <test-method status="PASS" signature="getCountryBySearch(java.lang.String, java.lang.String)[pri:0, instance:apiTests.CountryTests@1e88b3c]" name="getCountryBySearch" duration-ms="295" started-at="2016-10-12T11:06:11Z" data-provider="Search" finished-at="2016-10-12T11:06:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountryBySearch -->
+      </class> <!-- apiTests.CountryTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
